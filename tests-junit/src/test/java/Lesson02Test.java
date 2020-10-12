@@ -36,9 +36,16 @@ public class Lesson02Test {
         chromeDriver.get(CFG.url());
         LOGGER.debug("Открыли URI в Chrome-браузере");
 
+        LOGGER.debug("Получаем <title> страницы");
+        LOGGER.debug("Получили <title>: " + chromeDriver.getTitle());
+
         LOGGER.debug("Открываем URI в Firefox-браузере");
         firefoxDriver.get(CFG.url());
         LOGGER.debug("Открыли URI в Firefox-браузере");
+
+        LOGGER.debug("Получаем <title> страницы");
+        LOGGER.debug("Получили <title>: " + firefoxDriver.getTitle());
+
     }
 
 

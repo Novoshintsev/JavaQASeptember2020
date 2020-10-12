@@ -7,7 +7,7 @@
     <groupId>org.novoshintsev</groupId>
     <artifactId>javaqa</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.1-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
 
     <modules>
         <module>tests-junit</module>
